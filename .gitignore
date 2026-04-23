@@ -1,0 +1,84 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Node / Vite / Next ----------
+node_modules/
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/.vite/
+.next/
+out/
+
+# ---------- Environment files (NEVER commit) ----------
+.env
+.env.*
+!.env.example
+Frontend/.env
+Frontend/.env.*
+Backend/.env
+Backend/.env.*
+
+# ---------- Logs ----------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------- Editor / IDE ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Composio local cache ----------
+.composio.lock
+.composio/
+
+# ---------- Project-specific artifacts ----------
+# Demo / recording files (large)
+Recording*.mp4
+ui.mp4
+*.mp4
+
+# Trello debug dumps accidentally committed earlier
+Backend/list_*_cards.json
+
+# One-off diagnostic script — harmless but not needed in prod
+Backend/discover_trello.py
+
+# Uploaded transcripts (if ever persisted to disk)
+Backend/uploads/
+Backend/tmp/
